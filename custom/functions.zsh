@@ -1,1 +1,1 @@
-/home/bdcvit.com/anandj/playspace/devbox_configs/bash/functions
+/home/nands/playspace/devbox_configs/bash/functions
