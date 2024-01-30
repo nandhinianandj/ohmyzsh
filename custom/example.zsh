@@ -1,13 +1,12 @@
-# You can put files here to add functionality separated per file, which
-# will be ignored by git.
-# Files on the custom/ directory will be automatically loaded by the init
-# script, in alphabetical order.
-
-# For example: add yourself some shortcuts to projects you often work on.
+# Put files in this folder to add your own custom functionality.
+# See: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization
+#
+# Files in the custom/ directory will be:
+# - loaded automatically by the init script, in alphabetical order
+# - loaded last, after all built-ins in the lib/ directory, to override them
+# - ignored by git by default
+#
+# Example: add custom/shortcuts.zsh for shortcuts to your local projects
 #
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
-# AWS access keys for nextnav dvc access
-export AWS_ACCESS_KEY_ID="ASIARZFV5AJQPOGRKATU"
-export AWS_SECRET_ACCESS_KEY="VEWKH2r8927g0voFyfDyHGYtkes25ib4uMfxJiaC"
-export AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEMn//////////wEaCXVzLWVhc3QtMSJGMEQCIGR41wiD//EN4Yh96QP8EO5Kr14qBTATHFNX63pyVJ9CAiAldccRPVSRDJveVqNUS0Di/0LWQCBZn2MXeoUowcRIvSqSAwhyEAAaDDEyMjc4ODA1MzYwMCIMgXjnSvG3Ba7wkMbcKu8C/I53vJguazMGsbcF7AQ+aRZMmqMqsCVqRbJWbdV5ng2+z72hcLO+UfxujGdcsm2196thwj8vZH1HemjQLs6iOMiVYDza89GJbSZF7An+H3oQkJKGH7w2IzlTK3cAckLiXiQHopBZ+piXMBQiA4dETxowu7nHHoRuP5aVgorS5+ftD5DrmqIZy7kBiNz//YqqFK+zkOB8yWOf2puXy4tZOzMPfonxYmX6jDb6poAs/deLIRYw4wl7nCIwoPqJnRtnPX5cNl1QaRDywCddDCWYnwIFjEIRv/vnMXIY8mrAT/OpRLSam1pCRdWkLO6LGeXsy1rKy2PSFuJzUTJ5gbVnkokXgMW2SaP2iRbQX/NsLTI0qcpG1758lGqUQ1if0VhXnMJvTe+XHmf3nLZ0Yy9kslJDnZ78Z2PrxsBfgZu4kQi8JkO3+7nEbJqwzRTkJVFjR3KajB4jj9SpLH+5vil7wrewUh9JZgVXOYbYrlY50DC4uN+SBjqnAZQ96hW6DG3kTudnoCtdtMjt8OR4o3Ov/QDuK7sAOHCDHNHCH1II5Dfsh82vlxvQTCBhNv3vudYndP66WmlsYaDOIveVG5dXVPvp/l0UZ48l2BNlW1Qe6kyR/RzJU7rL/oS4s+0AX1L/WFk83LvHUAAXBxhuwAxlDGi1BedKbxz8ceUjlDJFazdzO4GeCiJHLZG1ULzPCR5Uz/5Gib7tHR24QeNNx/Y8"#
