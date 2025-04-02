@@ -1,1 +1,1 @@
-/home/nandhini/playspace/devbox_configs/bash/aliases
+/home/roko/playspace/devbox_configs/bash/aliases
