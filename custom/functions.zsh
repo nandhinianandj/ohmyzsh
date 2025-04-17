@@ -1,1 +1,1 @@
-/home/nands/playspace/devbox_configs/bash/functions
+/home/nands/devbox_configs/bash/functions
